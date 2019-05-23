@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>National Learn to Code Day</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="300">
+  <main>
+
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/llc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong></p>
+        <p><strong>Password:</strong></p>
+        <hr>
+
+        <h2>Download<br> & Install</h2>
+        <ol class="downloads">
+          <li>Learner files (zip file): <a href="https://github.com/ladieslearningcode/llc-ux-design/archive/master.zip">http://bit.ly/llc-ux</a>
+            <ul>
+              <li>unzip the learner file (<em>extract all</em> if you’re on a PC)</li>
+              <li>open <em>slides.html</em> in the browser to view the slides</li>
+            </ul>
+          </li>
+          <li>Pop By Marvel: <a href="https://marvelapp.com/pop/">https://marvelapp.com/pop/</a></li>
+          <li>Chrome Browser: <a href="https://www.google.ca/chrome/browser/desktop/">https://www.google.ca/chrome</a></li>
+          </li>
+        </ol>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Sara S. for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/llc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Introduction to <br>User Experience (UX) Design</span>
+      </h1>
+    </section>
+
+  <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Coders' code
+      1. Be friendly and welcoming.
+      * Be respectful of others by choosing words and actions with care.
+      * Be mindful of how much space you take up in conversations.
+      * Ask questions.
+      * Try your best (and have fun!).
+  </script>
+</section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Learning Goals
+      ##In this workshop, we will cover:
+        * How User Experience Design affects our lives in both good and bad ways.
+        * How User Experience (UX) and User Interface (UI) design go hand in hand.
+        * How different experiences like genders, cultures, languages, and backgrounds shape how we use technology daily.
+        * How to collaborate with team members to solve a real-world problem.
+        * The responsibility and decisions between user and designer when it comes to behaviours and to practice good digital citizenship.
+        * How to give constructive design feedback.
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Workshop Outline
+        <div class="table-of-contents">
+        </div>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        # Equity
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is Equity?
+      Equity means fairness. Equity ensures everyone gets what they need to improve their situation. Ideally, we should be working towards **liberation**, and equity is a temporary solution as we work towards this.
+
+
+
+      <img src="framework\img\Equality-Equity-Liberation.jpg" alt="Image of Equality vs Equity vs Liberation by Angus Maguire." style="width:70%;"><!-- .element: class="delayed" -->
+
+      ---
+      ###Resources
+      * [Image from Interaction Institute for Social Change | Artist: Angus Maguire](http://interactioninstitute.org/illustrating-equality-vs-equity/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #What is UX?
+      </script>
+    </section>
+
+    <section class="centered">
+      <div class="slide">
+        <img src="framework/img/steve-jobs.jpg" alt="Steve Jobs" style="max-width: 50%;">
+        <h4>“Design is not just what it looks like and feels like. Design is how it works.” </h4>
+        <p><i>Steve Jobs</i></p>
+      </div>
+    </section>
+
+<section class="slide" data-markdown>
+<script type="text/template">
+    #What is User Experience Design?
+    <!-- .element: class="delayed" -->It is the process of <b>enhancing customer satisfaction and loyalty</b> by <b>improving the ease of use and pleasure</b> provided in the <b>interaction between the customer and the product</b>.
+
+  ---
+  ###Resources
+  * [Wikipedia Page - UX](https://en.wikipedia.org/wiki/User_experience_design)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+    #Where did the term come from?
+    <!-- .element: class="delayed" --><img src="framework\img\don-norman.jpeg" alt="Steve Jobs" style="width: 400px;">
+
+    <!-- .element: class="delayed" -->
+    Don Norman, a cognitive scientist and co-founder of the Nielsen Norman Group Design Consultancy, coined the term in 1995 declaring that <b>“User experience encompasses all aspects of the end-user’s interaction with the company, its services, and its products.”</b>
+
+    <p></p>
+    #Where is the D(esign) word?<!-- .element: class="delayed" -->
+    <!-- .element: class="delayed" -->User Experience includes <b>all mediums</b>, not just design. This includes all interactions with people, whether it’s print, digital, or even fixing your IKEA shelf!
+
+    ---
+    ###Resources
+    * [Don Norman - UX](https://www.nngroup.com/articles/definition-user-experience/)
+  </script>
+</section>
+
+<section class="slide title" data-markdown>
+  <script type="text/template">
+    #What goes into UX?
+  </script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+    #What goes into UX?
+    <img src="framework\img\ux-strategy.png" alt="UX strategy" style="width:30%;">
+    <img src="framework\img\ux-prototyping.png" alt="UX prototyping" style="width:30%;">
+    <img src="framework\img\ux-execution.png" alt="UX execution" style="width:30%;">
+</script>
+</section>
+
+  <section class="slide centered">
+  <img src="framework\img\suzanne-cryer.gif" alt="Suzanne Cryer gif" style="max-width: 350px;">
+  <p class="delayed">Don't worry! We'll go into more detail 👍</p>
+  </section>
+
+  <section class="slide" data-markdown>
+      <script type="text/template">
+      <div class="float-left">
+        <h3>Example of a good user experience</h3>
+        <p>Deleting your account in Mailchimp</p>
+        <img src="framework\img\good-ux-mailchimp.png" alt="An Example of Good UX in Mailchimp" style="width: 600px;">
+      </div>
+
+      <div class="float-right">
+      <h3>Example of a poor user experience</h3>
+      <p>[Facebook Messenger](https://twitter.com/iceMagic/status/1030551886359932928)</p>
+      <p>
+        <img src="framework\img\Bad-UX-Update-Messenger.jpg" alt="An Example of a UX Dark Pattern in Facebook Messenger" style="width: 350px;">
+      </p>
+      </div>
+    </script>
+  </section>
+
+  <section class="slide title" data-markdown>
+    <script type="text/template">
+      #Summary
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #User Experience Design is...
+    * <!-- .element: class="delayed" -->The process of <b>development and improvement of interaction</b> between a user and all stages of a company or product.
+    * <!-- .element: class="delayed" -->Responsible for being hands-on with the entire process of research, testing, development, content, and prototyping to <b>validate a design.</b>
+    * <!-- .element: class="delayed" -->In theory, not a digital practice, but <b>used and defined mainly by digital industries</b> today.
+
+    <img src="framework\img\Cindy-Wilcox-UX-Process.png" alt="The UX Process by Cindy Wilcox" style="padding: 1em 0;"><!-- .element: class="delayed" -->
+
+      ---
+      ###Resources
+      * [Cindy Wilcox - The UX Process](http://cindyology.com/process/)
+  </script>
+  </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #What is UI?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+    <script type="text/template">
+        #What is User Interface Design?
+        It involves the <b>look and feel,</b> or the <b>presentation and interactivity</b> of a product.
+        It applies strictly to digital interfaces, unlike UX.
+        <img src="framework\img\Sterre Hendriks-3dsnow.gif" alt="Dribble Shot by Sterre Hendriks" style="padding: 1em 0;">
+
+        [Dribble Shot by Sterre Hendriks](https://dribbble.com/shots/2397610-Snowy-day)
+    </script>
+    </section>
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #What goes into UI?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #What goes into UI?
+        <img src="framework\img\ui-lookandfeel.png" alt="UI Look and Feel" style="width:40%;">
+        <img src="framework\img\ui-interaction.png" alt="UI Interaction" style="width:40%;">
+    </script>
+    </section>
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Summary
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #User Interface Design is...
+        *  <!-- .element: class="delayed" -->Responsible for transferring a brand’s strengths and visual assets to a product’s interface to <b>enhance the user’s experience.</b>
+        *  <!-- .element: class="delayed" -->A process of <b>visually guiding the user</b> through a product’s interface with interactive elements and across all device screen sizes / platforms (ie. MacOS / Windows)
+        *  <!-- .element: class="delayed" -->Involves <b>digital interfaces,</b> unlike UX, which can be applied to both digital and physical products.
+
+        ---
+        ###Resources
+        * [UXPin - Web UI Design Process](www.uxpin.com/studio/ebooks/mockups-ux-design-process/)
+    </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #How do UX and UI work together?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #How UX and UI compliment each other
+
+        ### “Something that looks great but is difficult to use is exemplary of great UI and poor UX. While something very usable that looks terrible is exemplary of great UX and poor UI." _-Helga Moreno_
+
+        <br/>
+        <img src="framework\img\cat-fishing.gif" alt="A gif of a cat playing Fishing App 2 on an iPhone." style="width: 400px;">
+
+        <img src="framework\img\UX-vs-UI-path.jpg" alt="An image of two different paths, the right is labelled UX and the left is labelled UI." style="width: 400px;"></div>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Tools and Approaches
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #The Design Cycle
+      <img src="framework\img\design-cycle-edit.png" alt="Diagram of the Participatory Design Cycle" style="height: 650px;"><!-- .element: class="delayed" -->
+      ##Sections we're covering:<!-- .element: class="delayed" -->
+      * Discovering needs<!-- .element: class="delayed" -->
+      * Brainstorming ideas<!-- .element: class="delayed" -->
+      * Testing Ideas<!-- .element: class="delayed" -->
+
+      ---
+      ###Resources
+      * [The Participatory Design Cycle](http://www.openlawlab.com/2016/09/20/participatory-agile-design-cycle-plan/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Lean UX Method
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #History of Lean UX
+      <img src="framework\img\eric-ries-lean-startup.jpg" alt="Lean Startup by Eric Ries" style="max-width: 200px;" class="delayed">
+
+      <!-- .element: class="delayed" -->In 2011, Eric Ries wrote <b>The Lean Startup</b>. It was inspired by startup development and unites design with business and
+      development. It focuses on outcomes and prioritizes which assumptions to test first.
+      <br/>
+
+      <img src="framework\img\jeff-gothelf-lean-ux.jpg" alt="Lean UX by Jeff Gothelf" style="max-width:200px;" class="delayed">
+
+      <!-- .element: class="delayed" -->In 2013, Jeff Gothelf refined the <b>Lean Process</b> for User Experience.
+
+      ---
+      ###Resources
+      * [Eric Ries - The Lean Startup](https://www.amazon.ca/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
+      * [Jeff Gothelf - Lean UX](https://www.amazon.ca/Lean-UX-Designing-Great-Products/dp/1491953608)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #The Lean UX Method
+        ##<!-- .element: class="delayed" -->Build – Measure – Learn
+        * <!-- .element: class="delayed" -->Declare Assumptions
+        * <!-- .element: class="delayed" -->Create a Minimal Viable Product (MVP)
+        * <!-- .element: class="delayed" -->Release early and release often
+        * <!-- .element: class="delayed" -->Focus on the market value
+        * <!-- .element: class="delayed" -->Value early customer validation
+        * <!-- .element: class="delayed" -->Repeat
+
+      <img src="framework\img\lean-ux-process.png" alt="Diagram of the Lean UX Process" class="delayed">
+        </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Agile UX Method
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #History of Agile UX
+        <!-- .element: class="delayed" -->The Agile UX process came from Agile Software methodology. It values <b>individuals and interactions</b> over processes and tools. Its goal is creating working software over comprehensive documentation. The Agile method uses <b>sprints</b> to prioritize builds based on requirements.
+
+        <!-- .element: class="delayed" -->
+        The Agile UX Process was made famous by <b>Jake Knapp and Google Ventures.</b>
+        The design sprint originated from <b>IDEO's human-centered design process,</b> which is closely linked to Stanford and its d.school. Scrum and Kanban are popular ways in which UX is used with Agile.
+
+        ---
+        ###Resources
+        * [Google Ventures - Design Sprint](https://www.gv.com/sprint/)
+        * [Stanford d.school Design Thinking](https://dschool.stanford.edu/resources-collections/a-virtual-crash-course-in-design-thinking)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #The Agile UX Method
+      ##Define and Plan - Build - Test<!-- .element: class="delayed" -->
+      * Define requirements<!-- .element: class="delayed" -->
+      * Define user personas<!-- .element: class="delayed" -->
+      * Timebox builds with sprints<!-- .element: class="delayed" -->
+      * Test build against requirements<!-- .element: class="delayed" -->
+
+      <!-- .element: class="delayed" --><img src="framework\img\agile-ux-process.png" alt="Diagram of the Agile UX Process" style="height: 500px;">
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #How are Agile and Lean different?
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #How are Agile and Lean similar?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #How are Agile and Lean similar?
+      ###They:
+      * are iterative processes<!-- .element: class="delayed" -->
+      * are highly collaborative<!-- .element: class="delayed" -->
+      * use a flat team structure<!-- .element: class="delayed" -->
+      * rely on feedback<!-- .element: class="delayed" -->
+
+      ##How do we apply our Design Thinking?<!-- .element: class="delayed" -->
+       Discover, Define, Ideate, Prototype, Test.<!-- .element: class="delayed" -->
+      <p><!-- .element: class="delayed" -->
+        <img src="framework\img\dave-landis-ux-design-cycle.png" alt="Diagram of the iterative UX Design Cycle" style="height: 400px;"></p>
+
+      ---
+      ###Resources
+      * [The Evolution of UX Process Methodology](https://uxplanet.org/the-evolution-of-ux-process-methodology-47f52557178b)
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      <img src="framework\img\bill-murray-yougotthis.gif" alt="Gif of Bill Murray saying 'You Got This'" style="width: 500px;">
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Introduction to User Research
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      <img src="framework\img\why-ux-research.png" alt="Funny image of man trying to drink from a cup whose design is poking his eyes" style="height: 500px;">
+
+      ---
+      ###Resources
+      * [Image from Twitter](https://twitter.com/fahmitsu/status/1107543711469072384)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is User Research?
+      <!-- .element: class="delayed" -->The process of understanding <b>user behaviors, needs, and attitudes</b> using different observation and feedback collection methods.
+
+      <!-- .element: class="delayed" -->User research helps us understand and develop empathy for our users and how they live their lives. With this knowledge, we can respond to their needs with <b>informed design solutions.</b>
+
+      <!-- .element: class="delayed" --><img src="framework\img\automattic-fourplanetsofdesign.jpg" alt="Diagram of Automattic's Four Planets of Design" style="height: 500px;">
+
+      ---
+      ###Resources
+      * [Automattic - The Four Planets of Design](https://automattic.design/2019/03/03/the-four-planets-of-design/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Discovery
+          ##Understanding Users
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Discovery
+        ### Understanding and defining your ideas 📝
+        * <!-- .element: class="delayed" -->Objectives
+          - What are the knowledge gaps I need to fill?
+        * <!-- .element: class="delayed" -->Hypotheses
+          - What do I think I understand about my users?
+        * <!-- .element: class="delayed" -->Methods
+          - Based on time and manpower, what methods should I use?
+        * <!-- .element: class="delayed" -->Conduct
+          - Gather data with your chosen methods.
+        * <!-- .element: class="delayed" -->Synthesize
+          - Fill in the knowledge gaps, prove or disprove your hypotheses, and discover opportunities for your design efforts.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What are some ways I can start understanding my user? 🤔
+        * <!-- .element: class="delayed" -->Assume a beginner’s mindset
+        * <!-- .element: class="delayed" -->Use the existing product
+        * <!-- .element: class="delayed" -->Ask the 5 Whys
+        * <!-- .element: class="delayed" -->Conduct 1-1 interviews with empathy in mind
+        * <!-- .element: class="delayed" -->Build empathy with analogies
+        * <!-- .element: class="delayed" -->Use photo and video user-based journals
+        * <!-- .element: class="delayed" -->Engage with extreme users
+        * <!-- .element: class="delayed" -->Storytelling
+        * <!-- .element: class="delayed" -->Roleplay
+        * <!-- .element: class="delayed" -->Create journey and affinity maps
+
+      ##<!-- .element: class="delayed" -->Most of all, **observe 👀 and listen** 👂
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Examples
+        * <!-- .element: class="delayed" -->Ask the 5 Whys
+         * Ask 'Why' multiple times to get to the root of the issue.
+        * <!-- .element: class="delayed" -->Engage with extreme users
+          * People who exhibit pronounced traits of your regular users (ie. Professional users).
+          * People with limitations or use workarounds (ie. Those with disability, language barriers, age differences).
+        * <!-- .element: class="delayed" -->Roleplay
+         * Put yourself in the shoes of your user and imagine their day to day.
+        * <!-- .element: class="delayed" -->Create journey and affinity maps
+
+
+      <img src="framework\img\nn-empathy-map.png" alt="Image of an example empathy map" style="height: 400px;"><!-- .element: class="delayed" -->
+      <img src="framework\img\nn-journey-map.png" alt="Image of an example journey map" style="height: 400px;"><!-- .element: class="delayed" -->
+      <img src="framework\img\affinity-map.jpg" alt="Image of an example affinity map" style="height: 400px;"><!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Personas
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is a Persona?
+      <!-- .element: class="delayed" -->A persona is a representation of **the main group of people** who would use your product. Personas are fictional profiles based off **real data** to describe these end users. They can be current users or future users.
+
+      <!-- .element: class="delayed" --><img src="framework\img\persona-template.jpg" alt="Image of an example user persona">
+
+      ---
+      ###Resources
+      * [Neilsen Norman Group - Personas](https://www.nngroup.com/articles/persona/)
+      * [JustInMind Persona Templates](https://www.justinmind.com/blog/user-persona-templates/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #<!-- .element: class="delayed" -->Why are Personas important?
+        * <!-- .element: class="delayed" -->Provide focus
+        * <!-- .element: class="delayed" -->Helps us connect to our users
+        * <!-- .element: class="delayed" -->Creates a point of reference when designing any product or software
+        * <!-- .element: class="delayed" -->Creates empathy - Gain an understanding of the people you're designing for and framing the problem you're trying to solve.
+          - <!-- .element: class="delayed" -->Note - Empathy is **not** sympathy. Sympathy involves feeling pity or sorrow for your user. As designers, we want to understand our user from their perspective, identifying with their feelings and struggles.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activity #1 - Personas - 10mins
+
+      Let's get into groups! We will be in the **same groups** for all activities.
+      ##You have 10 mins to read the persona/s and ask yourself:
+
+      1. What do you think is **the aim** of these personas?
+      1. **What kind of questions** can we ask to get to this information?
+      1. How do these help what you may be **solving for?**
+
+      Remember, the goal is a **digital solution** (website / app) that **focuses on our user's needs.**
+      </script>
+    </section>
+
+    </section>
+
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+    #Activity #2 - Brainstorming - 20 mins
+
+    ##Now that you have a better understanding of your personas, it's time to brainstorm!
+    <ol class="delayed">
+      <li>With your persona/s, come up with ideas to solve your user's problem.</li>
+      <li>Write **1 idea** per sticky.</li>
+      <li>Take the last 5 mins to decide on the **most useful** 1-2 ideas. You will be designing those ideas in the next activity!</li>
+    </ol>
+    </script>
+  </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Prototyping
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is a Prototype?
+      * <!-- .element: class="delayed" -->A prototype is a **rudimentary representation** of how the product will look and/or work. Prototypes are meant to be created with **minimal effort** to be improvised on quickly.
+      * <!-- .element: class="delayed" -->It can be a paper prototype, or a more interactive digital prototype.
+      * <!-- .element: class="delayed" -->A good prototype should be **able to display and perform** the functions of the actual product as much as possible.
+      * <!-- .element: class="delayed" -->Prototypes can be low-fidelity or high-fidelity, regardless of medium.
+
+      <div class="float-left delayed">
+      Paper Low-Fidelity Prototype
+      <br />
+      <img src="framework\img\paper-prototype.jpg" alt="Image of a paper prototype" style="width: 600px;"></div>
+
+      <div class="float-right delayed">
+      Digital High-Fidelity Prototype
+      <br />
+      <img src="framework\img\digital-prototype.png" alt="Image of a digital prototype" style="width: 550px;"></div>
+
+      <div class="clear-float"></div>
+
+      ---
+      ###Resources
+      * [Amy Mae Roberts - Creating a wearable prototype](http://www.amymaeroberts.com/paper-prototype-wearable-uis/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Why prototypes?
+
+      ###Prototypes allow fast validation of ideas ✔ <!-- .element: class="delayed" -->
+
+      * Since prototypes are created with minimal effort, any changes to the design or functionality can be addressed quickly.<!-- .element: class="delayed" -->
+      This process fosters rapid idea generation and validation.
+
+      ###Prototypes save time and money 💰⌛ <!-- .element: class="delayed" -->
+
+      * Misunderstandings can be identified and addressed as early in the design process as possible. The earlier in the process issues are addressed, the better, saving you and your team time and money.<!-- .element: class="delayed" -->
+
+      ###Prototypes help involve everyone in the design process 👨🏾‍💻👩🏻‍💻 <!-- .element: class="delayed" -->
+
+      * Even a modest project will typically include a number of different stakeholders. It’s important to engage with everyone involved in a project, bringing them on the journey from idea to finished product.<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+    <script type="text/template">
+    #Activity #3 - Paper Prototyping - 30mins
+    <ol class="delayed">
+      <li>
+        With your persona and ideas, start sketching simple paper prototypes of your product's look and function.</li>
+      <li>Don't be afraid to look at existing apps that solve a similar need.</li>
+    </ol>
+
+    <img src="framework\img\tom-paper-iphone.gif" alt="Gif of Tom Haverford from Parks and Rec holding a paper iphone." class="delayed"></div>
+
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    ##Objectives:
+    * <!-- .element: class="delayed" -->What is the problem or need you are aiming to solve?
+    * <!-- .element: class="delayed" -->Who are the users or customers?
+    * <!-- .element: class="delayed" -->What does the product need to do?
+
+    ##<!-- .element: class="delayed" -->Understanding needs:
+    * <!-- .element: class="delayed" -->What does your user want to achieve in their daily lives? How can this product help them?
+    * <!-- .element: class="delayed" -->What could bring joy and delight to your user?
+
+    ##<!-- .element: class="delayed" -->Understanding pain points:
+     * <!-- .element: class="delayed" -->What are some of the main problems that your user faces or complains about?
+     * <!-- .element: class="delayed" -->What can be done to make it easier for your user to complete their task/goal?
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Build and Deliver
+          ##Design Systems and Wireframing
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is a wireframe?
+      * <!-- .element: class="delayed" -->A wireframe provides a **visual understanding** of a page or app early in a project to get stakeholder and project team approval before the creative phase starts.
+      * <!-- .element: class="delayed" -->Wireframes can be used to **create navigation** which ensures the terminology and structure used for the product meets user expectations.
+
+      <div class="float-left delayed">
+      A website wireframe
+      <br />
+      <img src="framework\img\nn-wireframe.png" alt="Image of a wireframe" style="width: 550px;">
+      </div>
+
+      <div class="float-right delayed">
+      A paper app wireframe flow
+      <br />
+      <img src="framework\img\nn-wireflow.jpg" alt="Image of an app wireframe flow" style="width: 550px;">
+      </div>
+      <div class="clear-float"></div>
+
+      ---
+      ###Resources
+      * [Images from NN Group](https://www.nngroup.com/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What is a Design System?
+      It is a common visual language that unites product teams.<!-- .element: class="delayed" -->
+
+      ##Why?<!-- .element: class="delayed" -->
+      It reduces design debt, accelerates the design process, and builds bridges between teams working together to bring products to life.<!-- .element: class="delayed" -->
+
+      ##How does a design system help?<!-- .element: class="delayed" -->
+      It makes it easier to translate your prototypes to wireframes.<!-- .element: class="delayed" -->
+
+      ##<!-- .element: class="delayed" -->Examples of Design Systems
+      * <!-- .element: class="delayed" -->[Apple: Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+      * <!-- .element: class="delayed" -->[IBM: Carbon](https://www.carbondesignsystem.com/)
+      * <!-- .element: class="delayed" -->[Shopify: Polaris](https://polaris.shopify.com/)
+
+      ---
+      ###Resources
+      * [Design Systems Handbook](https://www.designbetter.co/design-systems-handbook)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activity #4 - Interactive Prototypes - 15mins
+      ##Using your prototypes, let's start creating interactive wireframes!
+       * Wireframes let us **simplify the interface** using shapes and layout, and are helpful for communicating high-level structure.
+       * Using colour is **optional** for low - medium fidelity wireframes.
+
+      Learn how to use Marvel in the next slide.
+
+     </script>
+   </section>
+
+   <section class="slide" data-markdown data-toc>
+     <script type="text/template">
+      #Activity #4 - Using Marvel
+      ##With this app, you can add interactions to your paper prototypes and test them!
+
+      ##Tutorial:
+      <iframe width="300" height="550" src="framework\img\marvel-pop-tutorial.mp4" frameborder="0"></iframe>
+
+      ##Tips:
+      * Tap the blue 'Play' button to preview your prototype.
+      * Tap 'Add Link' to link your screens and interactions together.
+      * Tap the 3 ellipses '...' to see more screen edit options.
+
+      <img src="framework\img\marvel-pop-tips.jpg" alt="Marvel Pop App screenshots">
+      </script>
+    </section>
+
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #User Testing
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #What is user testing?
+          <p class="delayed">User testing lets you gather as much feedback as you possibly can as early as you possibly can.</p>
+
+          <h3 class="delayed">It can be carried out at any time, but some key times would be:</h3>
+          <ul class="delayed">
+          <li>Testing an existing product you’ve created that you plan to redesign.</li>
+          <li>Testing competitors’ products so that you can learn from them, especially if you’re moving into the same space.</li>
+          <li>Testing a product you’re currently in the process of working on.</li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Why User Testing?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##The earlier you identify problems, the less expensive they are to fix.
+
+        <h3 class="delayed">Running a usability test will help you to:</h3>
+        <ul class="delayed">
+        <li>See if users are able to complete specific tasks successfully.</li>
+        <li>Establish how efficiently users can complete predetermined tasks.</li>
+        <li>Pinpoint changes to the design that might need addressing any shortcomings to improve performance.</li>
+        <li>Learn if the design addresses the problem.</li>
+        <li>Learn if the design brings delight to the user.</li>
+        </ul>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #User Testing - Part 1
+          ##Before Testing
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+          <h2 class="delayed">Part 1 - Before a test</h3>
+          <h3 class="delayed">Creating a test plan and script</h3>
+          <ol class="delayed">
+          <li>An effective user test usually takes around 30-60 minutes per person.</li>
+            <ul><li>The longer a test runs, the more tired the participant will get, so plan accordingly.</li>
+            <li>An ideal user test session will have a **facilitator** and a **note taker.** </li></ul>
+
+          <ul>
+            <li>The facilitator focuses on running the test and engaging with the participant.</li>
+            <li>The note-taker records and takes notes during the session.</li>
+          </ul>
+          <li>Develop a **solid test plan** that outlines your usability test, ensuring that when you test across different individuals, you’re doing so consistently.</li>
+        </ol>
+
+          <h3 class="delayed">Finding participants</h3>
+          <ol class="delayed">
+
+          <li>Establish clear criteria for recruiting participants, so that you’re testing users who are **appropriate to what you’re designing.**</li>
+          <li>Consider **incentives** (ie. gift card, free accounts on product release) to thank your participants for taking their time for you.</li>
+          <li>Use an **appropriate location** which will not be disturbed for the length of the session.</li>
+        </ol>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #User Testing - Part 2
+          ##During Testing
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##Part 2 - Testing your prototype
+        <h3 class="delayed">Introduction</h3>
+        <ul class="delayed">
+        <li>Introduce yourself and what you are testing for.</li>
+        <li>Outline who’s involved and why, explaining that while you’re running the test, the note-taker present will be recording their feedback.</li>
+        <li>Inform the participant that you are testing an unfinished prototype and looking for feedback.</li>
+        </ul>
+
+        <h3 class="delayed">Interviewing with empathy</h3>
+        <ul class="delayed">
+        <li>Inform the participant that you’re not testing them, you’re testing the software / app and that there are no wrong answers.</li>
+        <li>Resist the urge to interrupt the participant’s flow by offering them guidance and advice. Instead, encourage them to talk aloud to explain the reasons behind their choices.</li>
+        <li>Have your questions / test script on hand.</li>
+        </ul>
+
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        ##Example Questions:
+        <h3 class="delayed">First Impressions</h3>
+        <ul class="delayed">
+        <li>What is going through your mind as you look at this?</li>
+        <li>What is the first thing you would do?</li>
+        <li>What would you expect to happen?</li>
+        <li>If you wanted to perform [task], what would you do?</li>
+      </ul>
+
+        <h3 class="delayed">Understanding Usage</h3>
+        <ul class="delayed">
+        <li>Would you use this today?</li>
+        <li>How would you describe this?</li>
+        <li>What is the most you would be willing to pay for this?</li>
+        <li>If you had a magic wand, what would you change or add?</li>
+        <li>Does this feel like it was designed for you?</li>
+      </ul>
+
+        ---
+        ###Resources
+        * [User Testing Questions](https://uxdesign.cc/questions-ux-designers-should-be-asking-bc9a6ba87a34)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #User Testing - Part 3
+          ##After Testing
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      ##Part 3 - Wrapping up!
+      <ol class="delayed">
+      <li>Thank your participants and take down their information for incentives and follow up. 🙌</li>
+      <li>Ask participants if they are open to follow up.</li>
+      </ol>
+
+      <ul class="delayed">
+      3.<img src="framework\img\all-data-meme.png" alt="Meme saying Gather all the data" style="width: 300px;">
+
+      <li>Create a detailed spreadsheet of your questions and their replies.</li>
+      <li>Write down patterns in feedback into Key Findings.</li>
+      <li>List down any usability problems and bugs that participants ran into.</li>
+
+      <p class="delayed">
+        <img src="framework\img\Xtensio-example-report.png" alt="Image of an example user testing report" style="width: 600px;">
+        <br />
+        <span class="note">An example user testing report</span>
+      </p>
+
+      ---
+      ### Resources
+      * [How to write a User Testing Report](https://uxdesign.cc/how-to-write-a-user-testing-report-that-people-will-actually-read-652d15d2f92e)
+      * [Xtensio User Report Template](https://app.xtensio.com/folio/xgipqa0z)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activity #5 - User Testing - 20 mins
+      As a group, pair up with another group and take turns to share feedback.
+      Each group will nominate 1 volunteer to present your results later.
+
+      ##Before you start, here are some tips:
+      * Check for confirmation bias.
+      * Have someone else review your test plan and give feedback.
+      * Avoid asking leading questions (ie. Did  you choose this because of X?).
+
+      ##Observe if your user:
+      * Prefers elements in the design over others.
+      * Spends a long time reading a section without carrying out an action.
+      * Struggles with a task or part of the design by going to an element repeatedly, expecting something to happen.
+      </script>
+    </section>
+
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Gather your Findings!
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      Who's awesome? You are!
+
+      <img src="framework\img\proud.gif" alt="Gif of Woman clapping'" style="width: 500px;">
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Presentations
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Reflection - 2 mins per group
+      In your groups, spend a couple minutes and discuss your findings.
+
+      Nominate a person from each group to share:
+
+        1. What was the problem?
+        * What was the solution?
+        * What was 1 key takeaway or learning experience?
+    </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Ethics
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##"Design is a discipline of action. You are responsible for what you put into the world. It has your name on it. And while it is certainly impossible to predict how any of your work may be used, it shouldn’t be a surprise when work that is meant to hurt someone fulfills its mission."
+        _-Mike Monteiro_
+
+        ---
+        ###Resources
+        * [A Designer’s Code of Ethics](https://deardesignstudent.com/a-designers-code-of-ethics-f4a88aca9e95)
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      <img src="framework\img\23andme.png" alt="Image of 23andMe homepage when signed in">
+
+      What do health sites like 23andMe do with our information? 🤔<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #What do health sites like 23andMe do with our information?
+
+      ###In Canada, GlaxoSmithKline has exclusive rights with 23andMe.<!-- .element: class="delayed" -->
+
+      ###They will use the data to:<!-- .element: class="delayed" -->
+
+      * Design and manufacture new drugs<!-- .element: class="delayed" -->
+      * Monitor ~5 million 23andMe users to identify genetic differences that can affect treatments.<!-- .element: class="delayed" -->
+      * Find potential candidates for drug testing trials.<!-- .element: class="delayed" -->
+
+      ###In the US, health data is also used to:<!-- .element: class="delayed" -->
+
+      * Price insurance rates - based on pre-existing conditions that someone has.<!-- .element: class="delayed" -->
+      * Develop highly targeted advertising.<!-- .element: class="delayed" -->
+      * Track your doctor appointments and learn about your habits.<!-- .element: class="delayed" -->
+
+      ---
+      ###Resources
+      * [Privacy concerns after 23andMe shares genetic data with major drugmaker](https://www.ctvnews.ca/health/privacy-concerns-after-23andme-shares-genetic-data-with-major-drugmaker-1.4030480)
+      * [What you don’t know about your health data will make you sick](https://www.fastcompany.com/90317471/what-you-dont-know-about-your-health-data-privacy-will-make-you-sick)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Why is Ethics important?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Ethical Design:<!-- .element: class="delayed" -->
+      * Protects user privacy<!-- .element: class="delayed" -->
+      * Reduces fear by championing user needs<!-- .element: class="delayed" -->
+      * Avoids encouraging unhealthy addictions<!-- .element: class="delayed" -->
+      * Reduces risk<!-- .element: class="delayed" -->
+
+      <img src="framework\img\hawaiian-missile-alert.jpg" alt="Image of the interface of the false Hawaiian missile alert on Jan 13 2018" style="width:400px;"><!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+  <section class="slide title" data-markdown>
+    <script type="text/template">
+      #Ethics and Equity
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #How does Ethics go with Equity?<!-- .element: class="delayed" -->
+    <!-- .element: class="delayed" -->Ethics ensures that we, as designers, are **meeting our users/person's needs.**
+    By being mindful of ethical practices, we can ensure that our design provides users with what they need to **improve their lives**.
+
+    <p><!-- .element: class="delayed" -->
+    "The goal of a designer is to listen, observe, understand, sympathize, empathize, synthesize, and glean insights that enable him or her to 'make the invisible visible'."
+    -_Hillman Curtis_
+    </p>
+    </script>
+  </section>
+
+
+  <section class="slide title" data-markdown data-toc>
+    <script type="text/template">
+      #Universal Design
+      ##Diversity
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+      #Does this situation seem familiar?
+      (Amazon Echo, Apple Siri, Google Home)
+
+      <iframe width="560" height="400" src="https://www.youtube.com/embed/NMS2VnDveP8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </script>
+  </section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #What do the following have in common?
+    <br />
+  <img src="framework\img\amazon-echo.png" alt="Image of Amazon Echo." style="height:350px;"><!-- .element: class="delayed" -->
+  <img src="framework\img\microsoft-tay-twitter.png" alt="Image of Microsoft Tay Twitter account." style="height:350px;"><!-- .element: class="delayed" -->
+  <img src="framework\img\male-crash-test-dummies.jpg" alt="Image of male crash test dummies." style="height:350px;"><!-- .element: class="delayed" -->
+
+  ---
+  ###Resources
+  * [Voice assistants still have problems understanding strong accents](https://www.engadget.com/2018/07/19/voice-assistant-problems-understanding-accents/)
+  * [The Verge - Twitter taught Microsoft’s AI chatbot to be racist in a day](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)
+  * [Female crash dummy upends safety ratings for some top-selling cars](https://bangordailynews.com/2012/03/26/health/female-crash-dummy-upends-safety-ratings-for-some-top-selling-cars/)
+  * [Image of Crash Test Dummies | Wikipedia](https://en.wikipedia.org/wiki/Crash_test_dummy#/media/File:CEP1710-58.jpg)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Why should we design with diversity?
+  * Designers, like everyone else, are subconsciously influenced by their own cultural biases.<!-- .element: class="delayed" -->
+  * Safer products embrace equity by recognizing the equal value and humanity of all people.<!-- .element: class="delayed" -->
+  * Products that embrace diversity reach a wider audience.<!-- .element: class="delayed" -->
+
+  <img src="framework\img\airbnb-another-lens.png" alt="A screencap from AirBNB's Another Lens" style="height:350px;"><!-- .element: class="delayed" -->
+
+  ---
+  ###Resources
+  * [AirBNB - Another Lens](https://airbnb.design/anotherlens/Another_Lens.pdf)
+</script>
+</section>
+
+  <section class="slide title" data-markdown data-toc>
+    <script type="text/template">
+      #Universal Design
+      ##Accessibility
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+      #What is designing for accessibility?
+        <p class="delayed">In practice, accessibility is about designing for users with disabilities. Philosophically, it is about *designing for everyone*.
+        </p>
+
+      ##Why design for accessibility?<!-- .element: class="delayed" -->
+      * By designing for as many people as possible, the design and product reaches a wider usage.<!-- .element: class="delayed" -->
+      * It reframes public perception and reduces stigmas surrounding user barriers. <!-- .element: class="delayed" -->
+      * Challenges designers and provides unique UX insights.<!-- .element: class="delayed" -->
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #Real world examples
+
+    Tactile Pavement (Tenji Block) by Seiichi Miyake (1965)
+
+    <img src="framework\img\tenji-block.JPG" alt="Image of tactile pavement by Wikipedia user Haragayato." style="width:550px;">
+
+    Dyslexie Font by Christian Boer (2008)
+
+    <img src="framework\img\dyslexie-font.png" alt="A sample of the Dyslexie font, a font for people with Dyslexia." style="width:550px;">
+
+    ---
+    ###Resources
+      * [Wikipedia - History of the Tenji Block](https://en.wikipedia.org/wiki/Seiichi_Miyake)
+      * [Dyslexie Website](https://www.dyslexiefont.com/en/typeface/)
+    </script>
+  </section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #What should we as designers be mindful of?
+  * Consider one’s own privilege and personal biases.<!-- .element: class="delayed" -->
+  * Work towards liberation. Include all genders, races, ethnicities, religious backgrounds, social statuses (e.g. when looking for users to test your design).<!-- .element: class="delayed" -->
+  * Avoid generalizations and sexist language.<!-- .element: class="delayed" -->
+  * Consider colour usage and stereotypes (e.g. Blue for males, Pink for females).<!-- .element: class="delayed" -->
+  * Include accessible options as much as possible.<!-- .element: class="delayed" -->
+  * Include graphics and icons that embrace different races and identities.<!-- .element: class="delayed" -->
+
+  ---
+  ###Resources
+  * [6 Principles for Inclusive Design](https://uxplanet.org/6-principles-for-inclusive-design-3e9867f7f63e)
+  * [Humaans - Mix and Match Design Illustrations](https://www.humaaans.com/)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Today We Covered...
+  * How User Experience Design affects our lives in both good and bad ways.
+  * How User Experience (UX) and User Interface (UI) design go hand in hand.
+  * How different experiences like genders, cultures, languages, and backgrounds shape how we use technology daily.
+  * How to collaborate with team members to solve a real-world problem.
+  * The responsibility and decisions between user and designer when it comes to behaviours and to practice good digital citizenship.
+  * How to give constructive design feedback.
+  </script>
+</section>
+
+  <section class="slide centered" data-markdown>
+    <script type="text/template">
+      #You Did It!
+      <img src="framework\img\theoffice-party.gif" alt="A gif of The Office cast dancing.">
+  </script>
+  </section>
+
+  <section class="slide small-type" data-markdown data-toc>
+    <script type="text/template">
+    #More Resources!
+
+    * [D.school - Empathy Mixtape for User Testing](https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/58993ab21e5b6c9dbecc9746/1486437057629/understand-mixtape-v8.pdf)
+    * [The Ethics Canvas](https://www.ethicscanvas.org/canvas/index.php)
+
+    ##Design and Prototyping Tools
+    * [Balsamiq](https://balsamiq.com)
+    * [Figma](https://www.figmaresources.com/)
+    * [InVision](https://www.figmaresources.com/)
+    * [Marvel](https://marvelapp.com/)
+    * [Origami](https://origami.design/)
+    * [Sketch](https://www.sketchapp.com/)
+    * [UXPin](https://www.uxpin.com/)
+
+    ##Books
+    * [About Face: The Essentials of Interaction Design - Cooper and Wiley](https://www.amazon.ca/About-Face-Essentials-Interaction-Design/dp/1118766571/)
+    * [Don’t Make Me Think - Steve Krug](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited)
+    * [Emotional Design: Why We Love or Hate Everyday Things - Donald Norman](https://www.goodreads.com/book/show/841.Emotional_Design)
+    * [Hooked: How to Build Habit-Forming Products - Nir Eyal](https://www.goodreads.com/book/show/22668729-hooked)
+    * [Mismatch: How Inclusion Shapes Design - Kate Walsh](https://www.amazon.ca/Mismatch-How-Inclusion-Shapes-Design/dp/0262038889)
+    * [The Design of Everyday Things - Donald Norman](https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things)
+    * [You're My Favorite Client - Mike Monteiro](https://abookapart.com/products/youre-my-favorite-client)
+    * [100 Things Every Designer Needs to Know About People - Susan Weinschenk](https://www.amazon.ca/Things-Every-Designer-Needs-People/dp/0321767535)
+
+    ##Websites
+    * [Dear Design Student](https://deardesignstudent.com)
+    * [InVision - Inside Design](https://www.invisionapp.com/inside-design/)
+    * [Neilsen Norman](https://www.nngroup.com)
+    * [Medium - UX Anthology](https://medium.com/s/user-friendly)
+    * [UX Collective](https://uxdesign.cc)
+    * [UX Planet](https://uxplanet.org/)
+    * [UXPin - Free Design Ebooks](https://www.uxpin.com/studio/ebooks/)
+  </script>
+  </section>
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Introduction to User Experience Design</span>
+      </h2>
+
+      <!-- <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name"> -->
+      <h2><span class="cursive">with</span> Name</h2>
+      <ul>
+        <li><a href="mailto:">Email Me</a></li>
+        <li><a href="https://">Portfolio</a></li>
+        <li><a href="https://">Twitter</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
