@@ -5,6 +5,12 @@
 
 A full day introductory UX Design workshop.
 
+## Quick Links
+
+Instructor Notes: https://ladieslearningcode.github.io/llc-ux/notes-en.html
+
+Preview Slides: https://ladieslearningcode.github.io/llc-ux/slides-en.html
+
 ### Attributions
 
 Created by Sara S. for [Canada Learning Code](https://www.canadalearningcode.ca/).
