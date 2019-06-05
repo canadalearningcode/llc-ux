@@ -1,6 +1,6 @@
 # TESTING
 
-# Ladies Learning Code
+# National Learn to Code Day 
 ## Intro to User Experience (UX) Design
 
 A full day introductory UX Design workshop.
@@ -10,6 +10,15 @@ A full day introductory UX Design workshop.
 Instructor Notes: https://ladieslearningcode.github.io/llc-ux/notes-en.html
 
 Preview Slides: https://ladieslearningcode.github.io/llc-ux/slides-en.html
+
+## Description
+
+Why learn about UX design?
+With great design comes great responsibility. User experience (UX) design isn’t just about creating pretty or functioning websites - it’s about creative solutioning and trying to make people’s lives and experiences better. 
+
+As designers, we need to remember that we aren’t designing products for ourselves, but for other people. Being a UX designer allows you to work with and problem solve for a variety of different people, and empathy plays a huge part in this. 
+
+During this collaborative learning experience, we’ll explore the difference between UI and UX, and how they work together. We’ll walk through the design cycle; including discovery, user testing, and user personas. Learners will also have a chance to experience different UX methods through hands-on exercises, including building physical and digital prototypes. 
 
 ### Attributions
 
