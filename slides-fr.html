@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Journée nationale de l'apprentissage de la programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / durée : définissez la durée de la présentation en minutes avec « data-duration ». -->
+<body class="en" data-duration="300">
+  <main>
+
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/llc-logo-stacked-white.png" alt="Logo de Femmes en programmation">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTEZ LES INFOS SUR LE WI-FI ICI -->
+        <h2>Connectez- <br>vous</h2>
+        <p><strong>Réseau Wi-Fi:</strong></p>
+        <p><strong>Mot de passe :</strong></p>
+        <hr>
+
+        <h2>Téléchargez<br> et installez</h2>
+        <ol class="downloads">
+          <li>Fichiers d'apprentissage (dossier zip) : <a href="https://github.com/ladieslearningcode/llc-ux/archive/master.zip">http://bit.ly/llc-ux</a>
+            <ul>
+              <li>Dézippez le dossier zip (<em>Extraire tout</em> sur Windows)</li>
+              <li>Ouvrez <em>diapositives.html</em> dans le navigateur pour afficher les diapositives.</li>
+            </ul>
+          </li>
+          <li>Pop par Marvel : <a href="https://marvelapp.com/pop/">https://marvelapp.com/pop/</a></li>
+          <li>Navigateur Chrome : <a href="https://www.google.ca/chrome/browser/desktop/">https://www.google.ca/chrome</a></li>
+          </li>
+        </ol>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par Sara S. pour <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada en programmation</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/llc-logo-white.png" alt="Logo de Femmes en programmation">
+      <h1 class="heading-bg">
+        <span>Introduction à la <br>conception d'expérience utilisateur (EU)</span>
+      </h1>
+    </section>
+
+  <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Le code des programmeuses
+
+        1. Soyez accueillantes et chaleureuses.
+        1. Choisissez bien vos mots et vos actions.
+        1. Respectez l'espace des autres durant les conversations.
+        1. Posez des questions.
+        1. Faites de votre mieux (et amusez-vous!).
+  </script>
+</section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Objectifs d'apprentissage
+      ##Durant cet atelier, nous aborderons...
+      * Comment la conception de l'expérience utilisateur affecte notre vie tant positivement que négativement
+      * Comment l'expérience utilisateur (EU) et l'interface utilisateur (IU) sont liées
+      * Comment les caractéristiques comme le genre, la culture, la langue et l'expérience influencent notre façon de voir la technologie au quotidien
+      * Comment travailler en équipe pour résoudre des problèmes concrets
+      * Quelles sont les responsabilités et les décisions des utilisateurs et des concepteurs par rapport aux attitudes et comment agir en bon citoyen numérique
+      * Comment faire des rétroactions constructives sur la conception
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Plan de l'atelier
+        <div class="table-of-contents">
+        </div>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        # Équité
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce que l'équité?
+      Le mot « équité » veut dire « justice ». On dit qu'il y a équité lorsque tout le monde a les ressources nécessaires pour améliorer sa situation ou sa qualité de vie. L'équité est une solution temporaire; idéalement, nous devrions tous viser la **libération**.
+
+
+
+      <img src="framework\img\Equality-Equity-Liberation.jpg" alt="Égalité, équité, libération, par Angus Maguire." style="width:70%;"><!-- .element: class="delayed" -->
+
+      ---
+      ###Ressources
+      * [Image d'Interaction Institute for Social Change | Artiste : Angus Maguire](http://interactioninstitute.org/illustrating-equality-vs-equity/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Qu'est-ce que l'expérience utilisateur (EU)?
+      </script>
+    </section>
+
+    <section class="centered">
+      <div class="slide">
+        <img src="framework/img/steve-jobs.jpg" alt="Steve Jobs" style="max-width: 50%;">
+        <h4>« La conception n'est pas que l'apparence et la sensation que nous avons en utilisant un produit. La conception est le fonctionnement du produit. » </h4>
+        <p><i>Steve Jobs</i></p>
+      </div>
+    </section>
+
+<section class="slide" data-markdown>
+<script type="text/template">
+    #Qu'est-ce que la conception d'expérience utilisateur?
+    <!-- .element: class="delayed" -->La conception d'expérience utilisateur (EU en français, UX en anglais) est le processus <b>d'amélioration de la satisfaction et de la fidélité des utilisateurs</b> en <b>facilitant l'utilisation et en rendant agréable</b> l'<b>intéraction entre le client et le produit</b>.
+
+  ---
+  ###Ressources
+  * [Page Wikipedia - UX](https://en.wikipedia.org/wiki/User_experience_design)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+    #D'où vient ce terme?
+    <!-- .element: class="delayed" --><img src="framework\img\don-norman.jpeg" alt="Steve Jobs" style="width: 400px;">
+
+    <!-- .element: class="delayed" -->
+    Don Norman, spécialiste en sciences cognitives et cofondateur de Nielsen Norman Group Design Consultancy, a inventé le terme « expérience utilisateur » en 1995 en faisant cette déclaration : <b>« l'expérience utilisateur englobe tous les aspects de l'interaction de l'utilisateur final avec l'entreprise, ses services et ses produits. »</b>
+
+    <p></p>
+    #Et la conception?<!-- .element: class="delayed" -->
+    <!-- .element: class="delayed" -->L'expérience utilisateur comprend <b>tous les médiums</b>, pas seulement la conception graphique. Elle inclut, notamment, les interactions avec les autres personnes, les médiums imprimés ou numériques et même le processus de réparation d'un meuble IKEA!
+
+    ---
+    ###Ressources
+    * [Don Norman - UX](https://www.nngroup.com/articles/definition-user-experience/)
+  </script>
+</section>
+
+<section class="slide title" data-markdown>
+  <script type="text/template">
+    #Les éléments de l'EU
+  </script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+    #Les éléments de l'EU
+
+
+        **Stratégie** : analyse des concurrents et des produits, personas d'utilisateurs, structure de produit, rédaction de contenu<br>
+        **Prototype** : maquettage, essai et itération, planification, ordinateurs et plateformes mobiles<br>
+        **Exécution** : conception de l'interface utilisateur (polices, interactions, graphiques et couleurs), suivi des objectifs, développement
+
+    <img src="framework\img\ux-strategy.png" alt="Stratégie d'EU" style="width:30%;">
+    <img src="framework\img\ux-prototyping.png" alt="Prototype d'EU" style="width:30%;">
+    <img src="framework\img\ux-execution.png" alt="Exécution de l'EU" style="width:30%;">
+
+</script>
+</section>
+
+  <section class="slide centered">
+  <img src="framework\img\suzanne-cryer.gif" alt="Suzanne Cryer, gif" style="max-width: 350px;">
+  <p class="delayed">Êtes-vous perdues? Ne vous inquiétez pas, nous verrons le tout en détails bientôt. 👍</p>
+  </section>
+
+  <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+      # Exemple d'une bonne expérience utilisateur
+      
+      * Effacer un compte Mailchimp
+        <img src="framework\img\good-ux-mailchimp.png" alt="Exemple d'une bonne EU dans Mailchimp" style="width: 600px;">
+      * Exemple d'une mauvaise expérience utilisateur</h3>
+        <img src="framework\img\Bad-UX-Update-Messenger.jpg" alt="Exemple d'une manoeuvre trompeuse d'expérience utilisateur dans Facebook Messenger" style="width: 350px;">
+
+    </script>
+  </section>
+
+  <section class="slide title" data-markdown>
+    <script type="text/template">
+      #Résumé
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #La conception d'expérience utilisateur est...
+    * <!-- .element: class="delayed" -->Le processus de <b>développement et d'amélioration de l'interaction</b> entre un utilisateur et toutes les étapes d'un service ou d'un produit d'une entreprise.
+    * <!-- .element: class="delayed" -->La mise en place du processus complet de recherche, d'essai, de développement, de contenu et de création de prototype pour <b>valider une conception.</b>
+    * <!-- .element: class="delayed" -->En théorie, un processus analogique (pas numérique) qui est quand même <b>utilisé et défini par les entreprises numériques</b> aujourd'hui.
+
+    **Stratégie, découverte, analyse, conception et production.**<!-- .element: class="delayed" --><img src="framework\img\Cindy-Wilcox-UX-Process.png" alt="Le processus d'expérience utilisateur par Cindy Wilcox" style="padding: 1em 0;"><!-- .element: class="delayed" -->
+
+      ---
+      ###Ressources
+      * [Cindy Wilcox - Le processus d'expérience utilisateur](http://cindyology.com/process/)
+  </script>
+  </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Qu'est-ce que l'interface utilisateur? (IU)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+    <script type="text/template">
+        #Qu'est-ce que la conception de l'interface utilisateur?
+        L'interface utilisateur réfère à <b>l'apparence et à la sensation</b> ou à la <b>présentation et à l'interactivité</b> d'un produit.
+        Elle s'applique strictement aux interfaces numériques, contrairement à l'expérience utilisateur.
+        <img src="framework\img\Sterre Hendriks-3dsnow.gif" alt="Image d'effet de lancer par Sterre Hendriks" style="padding: 1em 0;">
+
+        [Image d'effet de lancer par Sterre Hendriks](https://dribbble.com/shots/2397610-Snowy-day)
+    </script>
+    </section>
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Les éléments de l'IU
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Les éléments de l'IU
+
+        **Apparence et sensation** : analyse de la clientèle, études sur la conception, image de marque et graphiques, témoignages d'utilisateurs<br>
+        **Réactivité et interactivité** : maquettes haute fidélité, interactions et animations, adaptation aux différentes tailles d'écran, collaboration avec les développeurs<br>
+        <img src="framework\img\ui-lookandfeel.png" alt="Apparence et sensation de l'IU" style="width:40%;">
+        <img src="framework\img\ui-interaction.png" alt="Interaction avec l'IU" style="width:40%;">
+    </script>
+    </section>
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Résumé
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #La conception de l'interface utilisateur est...
+        *  <!-- .element: class="delayed" -->La transposition des atouts et des graphiques d'une marque dans l'interface d'un produit pour <b>améliorer l'expérience de l'utilisateur.</b>
+        *  <!-- .element: class="delayed" -->Le processus d'<b>orientation visuelle</b> dans l'interface d'un produit avec des éléments interactifs sur toutes les plateformes (p. ex., MacOS, Windows) et tailles d'écran.
+        *  <!-- .element: class="delayed" -->Principalement l'affaire des <b>interfaces numériques,</b> contrairement à l'EU qui s'applique tant aux produits numériques qu'analogiques.
+
+        ---
+        ###Ressources
+        * [UXPin - Processus de conception d'une l'interface utilisateur Web](www.uxpin.com/studio/ebooks/mockups-ux-design-process/)
+    </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Comment l'EU et l'IU sont-elles liées?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #La complémentarité de l'EU et de l'IU
+
+        ### « Un produit magnifique, mais difficile à utiliser, est un exemple d'interface utilisateur réussie et d'expérience utilisateur ratée. Si un produit est facile d'utilisation, mais que son apparence laisse à désirer, on parle d'une interface utilisateur ratée et d'une expérience utilisateur réussie." _-Helga Moreno_
+
+        <br/>
+        <img src="framework\img\cat-fishing.gif" alt="Gif d'un chat jouant à Fishing App 2 sur son iPhone." style="width: 400px;">
+
+        <img src="framework\img\UX-vs-UI-path_fr.jpg" alt="Image de deux différents chemins : le chemin droit est l'EU et le chemin gauche est l'IU." style="width: 400px;"></div>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Outils et méthodes
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Le cycle de conception
+      <img src="framework\img\design-cycle-edit.png" alt="Diagramme du cycle de conception participatoire" style="height: 650px;"><!-- .element: class="delayed" -->
+      ##Étapes abordées :<!-- .element: class="delayed" -->
+      * Découverte des besoins<!-- .element: class="delayed" -->
+      * Remue-méninges<!-- .element: class="delayed" -->
+      * Mise à l'essai des idées<!-- .element: class="delayed" -->
+
+      ---
+      ###Ressources
+      * [Diagramme du cycle de conception participatoire](http://www.openlawlab.com/2016/09/20/participatory-agile-design-cycle-plan/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Méthode de conception d'EU allégée
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Historique de la conception d'EU allégée
+      <img src="framework\img\eric-ries-lean-startup.jpg" alt="Lean Startup par Eric Ries" style="max-width: 200px;" class="delayed">
+
+      <!-- .element: class="delayed" -->En 2011, Eric Ries a écrit <b>The Lean Startup</b>, un livre expliquant une méthode allégée qui jumèle la conception avec le démarrage d'une entreprise. Cette méthode se concentre sur les résultats et parle de la priorité des présomptions à mettre à l'essai.
+      <br/>
+
+      <img src="framework\img\jeff-gothelf-lean-ux.jpg" alt="Lean UX par Jeff Gothelf" style="max-width:200px;" class="delayed">
+
+      <!-- .element: class="delayed" -->En 2013, Jeff Gothelf a peaufiné le <b>processus allégé</b> de conception de l'expérience utilisateur.
+
+      ---
+      ###Ressources
+      * [Eric Ries - The Lean Startup](https://www.amazon.ca/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
+      * [Jeff Gothelf - Lean UX](https://www.amazon.ca/Lean-UX-Designing-Great-Products/dp/1491953608)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #La méthode de conception d'expérience utilisateur allégée
+        ##<!-- .element: class="delayed" -->Créer, évaluer, apprendre
+        * <!-- .element: class="delayed" -->Faire des présomptions
+        * <!-- .element: class="delayed" -->Créer un produit viable minimal (concept « MVP »)
+        * <!-- .element: class="delayed" -->Rendre l'expérience disponible tôt et la mettre à jour fréquemment
+        * <!-- .element: class="delayed" -->Se concentrer sur la valeur du marché
+        * <!-- .element: class="delayed" -->Reconnaître l'importance de la validation par des clients « précoces »
+        * <!-- .element: class="delayed" -->Répéter le cycle
+
+      <img src="framework\img\lean-ux-process.png" alt="Diagramme du processus de conception d'expérience utilisateur allégée" class="delayed">
+        </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #La méthode de conception d'expérience utilisateur agile
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Historique de la conception d'EU agile
+        <!-- .element: class="delayed" -->Le processus de conception d'expérience utilisateur agile a été mis au point selon la méthodologie de développement de logiciels Agile. Elle se concentre sur les <b>utilisateurs et leurs interactions</b> plutôt que sur les processus et les outils. Son objectif est de créer un logiciel fonctionnel plutôt que d'élaborer une documentation complète pour en comprendre le fonctionnement. La méthode agile utilise des <b>sprints</b> pour mettre la priorité sur des versions selon des exigences.
+
+        <!-- .element: class="delayed" -->
+        Le processus de conception d'expérience utilisateur agile a été popularisé par <b>Jake Knapp et Google Ventures.</b>
+        Le concept de « sprint » est tiré du <b>processus de conception axé sur l'humain d'IDEO,</b> qui est étroitement lié à Stanford et à d.school. Scrum et Kanban sont des méthodologies populaires pour concevoir l'expérience utilisateur avec la méthode agile.
+
+        ---
+        ###Ressources
+        * [Google Ventures - sprint de conception](https://www.gv.com/sprint/)
+        * [Stanford d.school : conception créative](https://dschool.stanford.edu/resources-collections/a-virtual-crash-course-in-design-thinking)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #La méthode de conception d'expérience utilisateur agile
+      ##Définir, planifier, créer, essayer<!-- .element: class="delayed" -->
+      * Définir les exigences<!-- .element: class="delayed" -->
+      * Définir les personas d'utilisateur<!-- .element: class="delayed" -->
+      * Blocs de temps, versions avec sprints<!-- .element: class="delayed" -->
+      * Essayer les versions en fonction des exigences<!-- .element: class="delayed" -->
+
+      <!-- .element: class="delayed" --><img src="framework\img\agile-ux-process.png" alt="Diagramme du processus de conception d'expérience utilisateur agile" style="height: 500px;">
+      **Début**<br>
+      Sprint 1 : exploration d'idée, planification et conception, version et essai<br>
+      **Itération**<br>
+      Sprint 2 : exploration d'idée, planification et conception, version et essai<br>
+      **Itération**<br>
+      Sprint 3 : exploration d'idée, planification et conception, version et essai<br>
+      **Fin**<br>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Quelles sont les différences entre la méthode agile et la méthode allégée?
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Quelles sont les similarités entre la méthode agile et la méthode allégée?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Quelles sont les similarités entre la méthode agile et la méthode allégée?
+      ###Elles...
+      * sont des processus itératifs<!-- .element: class="delayed" -->
+      * sont très axées sur la collaboration<!-- .element: class="delayed" -->
+      * ont une structure d'équipe égalitaire<!-- .element: class="delayed" -->
+      * dépendent des rétroactions<!-- .element: class="delayed" -->
+
+      ##Comment mettre en oeuvre la conception créative?<!-- .element: class="delayed" -->
+       Découvrir, définir, réfléchir, créer un prototype et essayer<!-- .element: class="delayed" -->
+      <p><!-- .element: class="delayed" -->
+        <img src="framework\img\dave-landis-ux-design-cycle.png" alt="Diagramme du cycle de conception d'expérience utilisateur itératif" style="height: 400px;"></p>
+
+      ---
+      ###Ressources
+      * [L'évolution de la méthodologie du processus d'expérience utilisateur](https://uxplanet.org/the-evolution-of-ux-process-methodology-47f52557178b)
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      <img src="framework\img\bill-murray-yougotthis.gif" alt="Gif de Bill Murray disant « You Got This »" style="width: 500px;">
+       Vous êtes capables.
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Introduction aux études sur les utilisateurs
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #L'importance des études sur l'EU
+      <img src="framework\img\why-ux-research.png" alt="Image drôle d'un homme qui essaie de boire dans une tasse avec une conception qui lui fait mal aux yeux" style="height: 500px;">
+
+      ---
+      ###Ressources
+      * [Image de Twitter](https://twitter.com/fahmitsu/status/1107543711469072384)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce que la recherche sur les utilisateurs?
+      <!-- .element: class="delayed" -->Le processus servant à comprendre <b>le comportement, les besoins et les attitudes des utilisateurs</b> à l'aide de méthodes différentes d'observation et de collecte de rétroactions.
+
+      <!-- .element: class="delayed" -->Les études sur les utilisateurs nous aident à développer de l'empathie envers les utilisateurs et à comprendre leur mode de vie. Grâce à ces connaissances, nous pouvons <b>concevoir des solutions et les adapter à leurs besoins de manière éclairée.</b>
+
+      <!-- .element: class="delayed" --><img src="framework\img\automattic-fourplanetsofdesign.jpg" alt="Diagramme « Quatre planètes de la conception » d'Automattic" style="height: 500px;">
+
+      ---
+      ###Ressources
+      * [Automattic - Les quatre planètes de la conception](https://automattic.design/2019/03/03/the-four-planets-of-design/)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Découverte
+          ##Comprendre les utilisateurs
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Découverte
+        ### Comprendre et définir des idées. 📝
+        * <!-- .element: class="delayed" -->Objectifs
+          - Quelles sont les informations manquantes?
+        * <!-- .element: class="delayed" -->Hypothèses
+          - Quelles sont mes connaissances des utilisateurs, selon moi?
+        * <!-- .element: class="delayed" -->Méthodes
+          - Selon le temps et la main-d'oeuvre dont je dispose, quelles méthodes devrais-je utiliser?
+        * <!-- .element: class="delayed" -->Réaliser
+          - Collecter des données avec mes méthodes choisies.
+        * <!-- .element: class="delayed" -->Synthétiser
+          - Trouver les informations manquantes, confirmer ou infirmer mes hypothèses et explorer des occasions pour la conception.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Comment puis-je comprendre mes utilisateurs? 🤔
+        * <!-- .element: class="delayed" -->Se mettre à la place d'un débutant
+        * <!-- .element: class="delayed" -->Utiliser le produit
+        * <!-- .element: class="delayed" -->Poser les cinq questions (qui, quoi, quand, où, comment)
+        * <!-- .element: class="delayed" -->Faire des entrevues individuelles en faisant preuve d'empathie
+        * <!-- .element: class="delayed" -->Développer son empathie avec des analogies
+        * <!-- .element: class="delayed" -->Utiliser des journaux photo et vidéo basés sur les expériences des utilisateurs
+        * <!-- .element: class="delayed" -->Discuter avec des utilisateurs types
+        * <!-- .element: class="delayed" -->Récits d'expérience
+        * <!-- .element: class="delayed" -->Jeux de rôle
+        * <!-- .element: class="delayed" -->Créer des cartes de parcours et d'affinités
+
+      ##<!-- .element: class="delayed" -->Avant tout : **observer 👀 et écouter** 👂
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Exemples
+        * <!-- .element: class="delayed" -->Poser les cinq questions (qui, quoi, quand, où, comment)
+         * Posez plusieurs questions pour bien cerner la source des problèmes.
+        * <!-- .element: class="delayed" -->Discuter avec des utilisateurs types
+          * Utilisateurs qui réalisent des tâches typiques (p. ex., utilisateurs professionnels).
+          * Utilisateurs vivant avec des restrictions ou utilisant des moyens de contournement ou de compensation (p. ex., personnes atteintes d'un handicap, parlant une autre langue, différences d'âge, etc.)
+        * <!-- .element: class="delayed" -->Jeux de rôle
+         * Se mettre à la place d'un utilisateur au quotidien.
+        * <!-- .element: class="delayed" -->Créer des cartes de parcours et d'affinités
+
+
+      <img src="framework\img\nn-empathy-map.png" alt="Exemple d'une carte d'empathie" style="height: 400px;"><!-- .element: class="delayed" -->
+      <img src="framework\img\nn-journey-map.png" alt="Exemple d'une carte de parcours" style="height: 400px;"><!-- .element: class="delayed" -->
+      <img src="framework\img\affinity-map.jpg" alt="Exemple d'une carte d'affinités" style="height: 400px;"><!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Personas
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce qu'un persona?
+      <!-- .element: class="delayed" -->Un persona est une représentation du **groupe principal de personnes** qui utiliseraient un produit. Les personas sont des profils fictifs fondés sur de **véritables données** qui décrivent les utilisateurs finaux. Ces utilisateurs peuvent être des utilisateurs actuels ou futurs.
+
+      <!-- .element: class="delayed" --><img src="framework\img\persona-template.jpg" alt="Exemple de persona d'utilisateur">Image<br> Nom / Profession<br> Facteurs qui influencent son style de travail<br> Besoins et objectifs au travail<br> Souhaits et ambitions<br> Ce qui la motive<br> Obstacles qui l'empêche d'être efficace
+
+      ---
+      ###Ressources
+      * [Neilsen Norman Group - Personas](https://www.nngroup.com/articles/persona/)
+      * [Modèles de personas JustInMind](https://www.justinmind.com/blog/user-persona-templates/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #<!-- .element: class="delayed" -->Pourquoi les personas sont-ils importants?
+        * <!-- .element: class="delayed" -->Ils nous permettent de nous concentrer sur certains utilisateurs.
+        * <!-- .element: class="delayed" -->Ils sont une façon de tisser des liens avec les utilisateurs.
+        * <!-- .element: class="delayed" -->Ils servent de point de référence pendant la conception d'un produit ou d'un logiciel.
+        * <!-- .element: class="delayed" -->Ils nous aident à développer de l'empathie, à comprendre les gens pour qui nous concevons le produit et à définir les problèmes à résoudre.
+          - <!-- .element: class="delayed" -->Remarque - l'empathie n'est **pas** la même chose que la sympathie. La sympathie est le sentiment de pitié ou de tristesse pour l'utilisateur. En tant que concepteurs, nous souhaitons comprendre le point de vue des utilisateurs, leurs sentiments et leurs difficultés.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activité n° 1 - Personas - 10 minutes
+
+      Le temps est venu de former des groupes! Vous resterez avec le **même groupe** pendant toutes les activités.
+      ##Vous avez 10 minutes pour lire les personas et répondre à ces questions :
+
+      1. Quel est l'**objectif** de ces personas?
+      1. **Quelles questions** nous permettraient d'obtenir ces informations?
+      1. Comment les informations nous permettent-elles de **trouver et d'améliorer des solutions**?
+
+      N'oubliez pas que votre but est de créer une **solution numérique** (un site Web ou une app) qui **répond aux besoins des utilisateurs**.
+      </script>
+    </section>
+
+    </section>
+
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+    #Activité n° 2 - Remue-méninges - 20 minutes
+
+    ##Maintenant que vous comprenez mieux les personas, creusez-vous les méninges!
+    <ol class="delayed">
+      <li>Trouvez des idées pour résoudre les problèmes de vos utilisateurs à l'aide de vos personas.</li>
+      <li>Écrivez **une idée** par papillon adhésif.</li>
+      <li>Prenez les 5 dernières minutes pour déterminer les idées les plus **pratiques** (une ou deux idées). Vous concrétiserez ces idées dans la prochaine activité!</li>
+    </ol>
+    </script>
+  </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Prototypes
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce qu'un prototype?
+      * <!-- .element: class="delayed" -->Un prototype est une **représentation simple** de l'apparence ou du fonctionnement d'un produit. Les prototypes sont créés avec un **effort minimal** pour faciliter l'improvisation.
+      * <!-- .element: class="delayed" -->Le prototype peut être fait tout simplement en papier ou sur un support numérique interactif.
+      * <!-- .element: class="delayed" -->Un bon prototype devrait être capable **de représenter le produit et d'en réaliser les fonctions** autant que possible.
+      * <!-- .element: class="delayed" -->Les prototypes peuvent être de basse ou de haute fidélité, peu importe le support.
+
+      <div class="float-left delayed">
+      Prototype en papier, basse fidélité
+      <br />
+      <img src="framework\img\paper-prototype.jpg" alt="Image d'un prototype en papier" style="width: 600px;"></div>
+
+      <div class="float-right delayed">
+      Prototype numérique, haute fidélité
+      <br />
+      <img src="framework\img\digital-prototype.png" alt="Image d'un prototype numérique" style="width: 550px;"></div>
+
+      <div class="clear-float"></div>
+
+      ---
+      ###Ressources
+      * [Amy Mae Roberts - créer un prototype vestimentaire](http://www.amymaeroberts.com/paper-prototype-wearable-uis/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Pourquoi créer un prototype?
+
+      ###Les prototypes nous permettent de valider rapidement des idées. ✔ <!-- .element: class="delayed" -->
+
+      * Comme les prototypes sont créés avec un effort minimal, il est facile d'apporter des changements à la conception ou aux fonctionnalités.<!-- .element: class="delayed" -->
+      Ainsi, nous pouvons générer et valider des idées rapidement.
+
+      ###Les prototypes nous permettent d'économiser du temps et de l'argent. 💰⌛ <!-- .element: class="delayed" -->
+
+      * Les aspects problématiques peuvent être trouvés et résolus le plus rapidement possible dans le processus de conception. Plus vous réglerez les problèmes tôt dans le processus, plus votre équipe économisera du temps et de l'argent.<!-- .element: class="delayed" -->
+
+      ###Les prototypes nous permettent d'inclure tout le monde dans le processus de conception. 👨🏾‍💻👩🏻‍💻 <!-- .element: class="delayed" -->
+
+      * Même les plus petits projets ont plusieurs parties prenantes. Il est important d'engager tout le monde dans vos projets du début jusqu'à la fin, c'est-à-dire de la simple idée au produit fini.<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+    <script type="text/template">
+    #Activité n° 3 - Prototype papier - 30 minutes
+    <ol class="delayed">
+      <li>
+        Avec vos personas et vos idées, commencez à dessiner des prototypes simples en papier qui représenteront l'apparence et la fonctionnalité du produit.</li>
+      <li>N'hésitez pas à regarder les apps qui comblent un besoin similaire pour vous en inspirer.</li>
+    </ol>
+
+    <img src="framework\img\tom-paper-iphone.gif" alt="Gif de Tom Haverford de Parks and Recreation qui tient un iPhone en papier." class="delayed"></div>
+
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    ##Objectifs :
+    * <!-- .element: class="delayed" -->Quel est le problème à régler ou le besoin à combler?
+    * <!-- .element: class="delayed" -->Qui sont les utilisateurs ou les clients?
+    * <!-- .element: class="delayed" -->Que doit faire le produit?
+
+    ##<!-- .element: class="delayed" -->Comprendre les besoins :
+    * <!-- .element: class="delayed" -->Quelle est l'action que l'utilisateur souhaite accomplir au quotidien? Comment ce produit peut-il l'aider?
+    * <!-- .element: class="delayed" -->Comment le produit peut-il rendre sa vie plus agréable ou amusante?
+
+    ##<!-- .element: class="delayed" -->Comprendre les difficultés :
+     * <!-- .element: class="delayed" -->Quels sont les problèmes rencontrés par l'utilisateur? Quelles sont ses critiques les plus importantes?
+     * <!-- .element: class="delayed" -->Comment aider l'utilisateur à accomplir sa tâche ou à atteindre son but facilement?
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Version et livraison
+          ##Systèmes de conception et création de maquette
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce qu'une maquette?
+      * <!-- .element: class="delayed" -->Une maquette est une **représentation visuelle** d'une page ou d'une app tôt réalisée tôt dans le processus d'un projet afin d'obtenir l'approbation des parties prenantes et des membres de l'équipe avant l'étape de création.
+      * <!-- .element: class="delayed" -->Les maquettes peuvent servir à **créer une aide à la navigation** qui s'assurera que la terminologie est uniforme et que la structure du projet répond aux attentes des utilisateurs.
+
+      <div class="float-left delayed">
+      Maquette d'un site Web
+      <br />
+      <img src="framework\img\nn-wireframe.png" alt="Image d'une maquette" style="width: 550px;">
+      </div>
+
+      <div class="float-right delayed">
+      Maquette papier d'un flux d'app
+      <br />
+      <img src="framework\img\nn-wireflow.jpg" alt="Image d'une maquette papier d'un flux d'app" style="width: 550px;">
+      </div>
+      <div class="clear-float"></div>
+
+      ---
+      ###Ressources
+      * [Images de NN Group](https://www.nngroup.com/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Qu'est-ce qu'un système de conception?
+      Il s'agit d'un langage visuel commun compris par toutes les équipes qui travaillent sur le produit.<!-- .element: class="delayed" -->
+
+      ##À quoi sert-il?<!-- .element: class="delayed" -->
+      Il sert à réduire la « dette de conception », à accélérer le processus de conception et à bâtir des ponts entre les différentes équipes du projet.<!-- .element: class="delayed" -->
+
+      ##En quoi le système de conception nous aide-t-il?<!-- .element: class="delayed" -->
+      Il facilite la transition entre les prototypes et les maquettes.<!-- .element: class="delayed" -->
+
+      ##<!-- .element: class="delayed" -->Exemples de systèmes de conception
+      * <!-- .element: class="delayed" -->[Apple : règles directrices sur l'interface humaine](https://developer.apple.com/design/human-interface-guidelines/)
+      * <!-- .element: class="delayed" -->[IBM : Carbon](https://www.carbondesignsystem.com/)
+      * <!-- .element: class="delayed" -->[Shopify : Polaris](https://polaris.shopify.com/)
+
+      ---
+      ###Ressources
+      * [Guide sur les systèmes de conception](https://www.designbetter.co/design-systems-handbook)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activité n° 4 - Prototype interactif - 15 minutes
+      ##Utilisez vos prototypes pour créer des maquettes interactives!
+       * Les maquettes nous permettent de **simplifier l'interface** avec des formes et une disposition idéales. Elles sont pratiques lorsque l'on veut communiquer des structures de haut niveau.
+       * Il n'est **pas obligatoire** d'utiliser de la couleur si vous avez une maquette de basse (ou de moyenne) fidélité.
+
+      Découvrez comment utiliser Marvel dans la prochaine diapositive.
+
+     </script>
+   </section>
+
+   <section class="slide" data-markdown data-toc>
+     <script type="text/template">
+      #Activité n° 4 - Marvel
+      ##Avez cette app, vous pouvez ajouter de l'interactivité à vos prototypes papier et les essayer!
+<br>
+      ##Tutoriel :
+      <iframe width="300" height="550" src="framework\img\marvel-pop-tutorial.mp4" frameborder="0"></iframe>
+
+      ##Conseil :
+      * Tapez le bouton bleu pour afficher un aperçu du prototype.
+      * Tapez « Add Link » pour jumeler vos écrans et vos interactions.
+      * Tapez les trois points '...' pour afficher plus d'options de modification d'écran.
+      <img src="framework\img\marvel-pop-tips.jpg" alt="Captures d'écran de l'app Marvel Pop">
+      </script>
+    </section>
+
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Essai par les utilisateurs
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #En quoi consiste un essai par les utilisateurs?
+          <p class="delayed">Les essais par les utilisateurs nous permettent d'obtenir le plus de rétroactions possible, le plus tôt possible.</p>
+
+          <h3 class="delayed">Les essais peuvent être faits en tout temps, mais voici quelques situations où ils sont particulièrement appropriés :</h3>
+          <ul class="delayed">
+          <li>Lorsque vous souhaitez essayer un produit dont vous changerez la conception bientôt.</li>
+          <li>Lorsque vous essayez les produits des concurrents afin de vous en inspirer, surtout si vous visez le même public.</li>
+          <li>Lorsque vous mettez à l'essai un produit en cours de développement.</li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Pourquoi faire des essais avec les utilisateurs?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##Plus vous déterminerez les problèmes rapidement, moins ils seront coûteux à régler.
+
+        <h3 class="delayed">Les essais d'utilisation vous aideront à :</h3>
+        <ul class="delayed">
+        <li>Voir si les utilisateurs sont capables d'accomplir certaines tâches.</li>
+        <li>Voir l'efficacité des utilisateurs lorsqu'ils réalisent des tâches prédéterminées.</li>
+        <li>Déterminer des changements à apporter à la conception afin de régler des problèmes et d'améliorer la performance.</li>
+        <li>Comprendre si la conception règle le problème.</li>
+        <li>Comprendre si la conception est agréable pour l'utilisateur.</li>
+        </ul>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Essai par les utilisateurs - Partie 1
+          ##Avant l'essai
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+          <h2 class="delayed">Partie 1 - Avant l'essai</h3>
+          <h3 class="delayed">Créer un plan d'essai et un script</h3>
+          <ol class="delayed">
+          <li>Un essai efficace prend habituellement de 30 à 60 minutes par utilisateur.</li>
+            <ul><li>Plus l'essai est long, plus l'utilisateur se fatigue. Il est donc conseillé de bien planifier votre essai.</li>
+            <li>Idéalement, une séance d'essai est réalisée en équipe de deux : un **animateur** et un **preneur de notes**. </li></ul>
+
+          <ul>
+            <li>L'animateur se concentre sur la mise en oeuvre de l'essai et l'interaction avec le participant.</li>
+            <li>Le preneur de notes observe et écrit le déroulement de la séance.</li>
+          </ul>
+          <li>Développez un **plan d'essai solide** qui décrit l'essai d'utilité. Ainsi, lorsque vous réaliserez l'essai avec d'autres personnes, le déroulement se fera de manière constante.</li>
+        </ol>
+
+          <h3 class="delayed">Trouver des participants</h3>
+          <ol class="delayed">
+
+          <li>Déterminez des critères de recrutement de participants afin que vous puissiez réaliser vos essais avec des utilisateurs qui **correspondent exactement au public pour lequel vous concevez le produit**.</li>
+          <li>Pensez à offrir une **rémunération** (p. ex., une carte-cadeau, un compte gratuit au moment de la sortie) pour remercier les participants.</li>
+          <li>Menez l'essai dans un **endroit convenable** où vous ne serez pas dérangés pendant la séance.</li>
+        </ol>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Essai par les utilisateurs - Partie 2
+          ##Durant l'essai
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##Partie 2 - Essayer le prototype
+        <h3 class="delayed">Introduction</h3>
+        <ul class="delayed">
+        <li>Présentez-vous et indiquez l'objectif de l'essai.</li>
+        <li>Parlez des parties prenantes et de l'intention derrière leur engagement. Expliquez que pendant l'essai, une personne prendra des notes et enregistrera les rétroactions.</li>
+        <li>Informez le participant que le prototype mis à l'essai n'est pas final et que vous souhaitez obtenir des critiques.</li>
+        </ul>
+
+        <h3 class="delayed">Réaliser une entrevue et faire preuve d'empathie</h3>
+        <ul class="delayed">
+        <li>Informez le participant qu'il n'est pas évalué lui-même : vous mettez le produit, le logiciel ou l'app à l'essai. Il n'y a pas de mauvaise réponse.</li>
+        <li>Résistez à l'envie d'interrompre le rythme d'essai du participant en lui offrant de l'aide et des conseils. Encouragez-le plutôt à expliquer les raisons derrière ses choix.</li>
+        <li>Assurez-vous d'avoir vos questions et votre script d'essai sous la main.</li>
+        </ul>
+
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        ##Exemples de questions :
+        <h3 class="delayed">Première impression</h3>
+        <ul class="delayed">
+        <li>À quoi pensez-vous lorsque vous regardez ce produit?</li>
+        <li>Quelle est la première action que vous feriez avec ce produit?</li>
+        <li>Quelles sont vos attentes quant aux actions?</li>
+        <li>Si vous souhaitiez accomplir [tâche], que feriez-vous?</li>
+      </ul>
+
+        <h3 class="delayed">Comprendre l'utilisation</h3>
+        <ul class="delayed">
+        <li>Utiliseriez-vous ce produit aujourd'hui?</li>
+        <li>Comment décririez-vous ce produit?</li>
+        <li>Combien voudriez-vous payer pour ce produit?</li>
+        <li>Si vous aviez une baguette magique, que changeriez-vous ou qu'ajouteriez-vous sur le produit?</li>
+        <li>Pensez-vous que le produit a été conçu pour quelqu'un comme vous?</li>
+      </ul>
+
+        ---
+        ###Ressources
+        * [Questions d'essai par les utilisateurs](https://uxdesign.cc/questions-ux-designers-should-be-asking-bc9a6ba87a34)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Essai par les utilisateurs - Partie 3
+          ##Après l'essai
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      ##Partie 3 - Finalisation
+      <ol class="delayed">
+      <li>Remerciez vos participants et notez leurs coordonnées pour leur offrir une rémunération et faire un suivi. 🙌</li>
+      <li>Demandez aux participants s'ils sont ouverts à un suivi potentiel.</li>
+      </ol>
+
+      <ul class="delayed">
+      3. Rassemblez vos informations.<br><img src="framework\img\all-data-meme.png" alt="Meme disant « Collectez toutes les données »" style="width: 300px;">
+
+      <li>Créez une feuille de calcul qui comprend vos questions et les réponses de l'utilisateur.</li>
+      <li>Écrivez les tendances dans les rétroactions dans la section des résultats clés.</li>
+      <li>Faites une liste de problèmes d'utilisation et de bogues rencontrés par les participants.</li>
+
+      <p class="delayed">
+        <img src="framework\img\Xtensio-example-report.png" alt="Image d'un exemple de rapport d'essai par les utilisateurs" style="width: 600px;">
+        <br />
+        <span class="note">Un exemple de rapport d'essai par les utilisateurs.</span>
+      </p>
+
+      ---
+      ### Ressources
+      * [Comment écrire un rapport d'essai par les utilisateurs](https://uxdesign.cc/how-to-write-a-user-testing-report-that-people-will-actually-read-652d15d2f92e)
+      * [Modèle de rapport d'essai par les utilisateurs Xtensio](https://app.xtensio.com/folio/xgipqa0z)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Activité n° 5 - Essai par les utilisateurs - 20 minutes
+      Chaque groupe collaborera avec un autre groupe et fera des rétroactions sur la solution de l'autre équipe.
+      Chaque équipe choisira un membre qui présentera les résultats à la classe plus tard.
+
+      ##Voici quelques conseils pour commencer :
+      * Vérifiez s'il y a un biais de confirmation.
+      * Demandez à quelqu'un de regarder votre plan d'essai et de donner des rétroactions.
+      * Évitez de poser des questions orientées. (p. ex., Avez-vous choisi X à cause de Y?)
+
+      ##Observez si l'utilisateur :
+      * Préfère des éléments de conception plus que d'autres.
+      * Passe beaucoup de temps à lire une section sans agir.
+      * A de la difficulté à accomplir une tâche ou revient toujours à un même élément en pensant que quelque chose se produira.
+      </script>
+    </section>
+
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Compilez vos résultats!
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #C'est qui les meilleures? C'est vous!
+        <img src="framework\img\proud.gif" alt="Femme qui tape des mains, gif" style="width: 500px;">
+
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Présentations
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Réflexion - 2 minutes par groupe
+      Prenez quelques minutes pour parler de vos découvertes avec votre groupe.
+
+      Nommez une personne dans le groupe qui partagera vos réponses à ces questions avec le reste de la classe :
+
+        1. Quel était le problème?
+        * Quelle était la solution?
+        * Quel est un élément à retenir ou qu'avez-vous appris d'important?
+    </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Éthique
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##« La conception est une discipline d'action. Les concepteurs sont responsables de leurs créations. Leur nom est inscrit sur leurs produits. Même s'il est impossible de prédire les façons dont nos produits seront utilisés, il ne faut pas être étonné que quelque chose de nuisible atteigne son but."
+        _-Mike Monteiro_
+
+        ---
+        ###Ressources
+        * [Code d'éthique des concepteurs](https://deardesignstudent.com/a-designers-code-of-ethics-f4a88aca9e95)
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      <img src="framework\img\23andme.png" alt="Image de la page d'accueil de 23andMe, utilisateur connecté">
+
+      Que font des sites du domaine de la santé comme 23andMe avec nos renseignements? 🤔<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Que font des sites du domaine de la santé comme 23andMe avec nos renseignements?
+
+      ###Au Canada, GlaxoSmithKline détient des droits exclusifs sur les renseignements de 23andMe.<!-- .element: class="delayed" -->
+
+      ###L'entreprise utilise les renseignements pour :<!-- .element: class="delayed" -->
+
+      * Concevoir et fabriquer de nouveaux médicaments.<!-- .element: class="delayed" -->
+      * Surveiller plus de 5 millions d'utilisateurs de 23andMe pour déterminer les différences génétiques qui peuvent affecter les traitements.<!-- .element: class="delayed" -->
+      * Trouver des candidats potentiels pour l'essai de médicaments.<!-- .element: class="delayed" -->
+
+      ###Aux États-Unis, les renseignements sur la santé sont aussi utilisés pour :<!-- .element: class="delayed" -->
+
+      * Fixer des prix d'assurance médicaments selon les conditions médicales d'une personne.<!-- .element: class="delayed" -->
+      * Mettre au point des publicités hautement ciblées.<!-- .element: class="delayed" -->
+      * Faire le suivi des rendez-vous médicaux et découvrir les habitudes des utilisateurs.<!-- .element: class="delayed" -->
+
+      ---
+      ###Ressources
+      * [Problème de confidentialité :  23andMe partage des renseignements sur la génétique avec une grande entreprise pharmaceutique](https://www.ctvnews.ca/health/privacy-concerns-after-23andme-shares-genetic-data-with-major-drugmaker-1.4030480)
+      * [Les informations que vous ignorez sur votre santé vous rendront malade](https://www.fastcompany.com/90317471/what-you-dont-know-about-your-health-data-privacy-will-make-you-sick)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Pourquoi l'éthique est-elle importante?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      #Conception éthique :<!-- .element: class="delayed" -->
+      * Protège la confidentialité des utilisateurs<!-- .element: class="delayed" -->
+      * Réduit la méfiance chez les utilisateurs en mettant l'accent sur leurs besoins<!-- .element: class="delayed" -->
+      * N'encourage pas les dépendances et abus<!-- .element: class="delayed" -->
+      * Réduit les risques<!-- .element: class="delayed" -->
+
+      <img src="framework\img\hawaiian-missile-alert.jpg" alt="Image de l'interface de la fausse alerte au missile à Hawaii le 13 janvier 2018" style="width:400px;"><!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+  <section class="slide title" data-markdown>
+    <script type="text/template">
+      #Éthique et équité
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #Quel est le lien entre l'éthique et l'équité?<!-- .element: class="delayed" -->
+    <!-- .element: class="delayed" -->En tant que concepteurs, l'éthique nous permet de **répondre aux besoins des utilisateurs et des individus**.
+    En considérant les questions d'éthique, nous nous assurons que la conception de notre produit offre aux utilisateurs une solution qui **améliorera leur quotidien**.
+
+    <p><!-- .element: class="delayed" -->
+    « L'objectif d'un concepteur est d'écouter, d'observer, de comprendre, de faire preuve de sympathie et d'empathie, de synthétiser et de collecter des informations afin de rendre « l'invisible » visible. »
+    -_Hillman Curtis_
+    </p>
+    </script>
+  </section>
+
+
+  <section class="slide title" data-markdown data-toc>
+    <script type="text/template">
+      #Conception universelle
+      ##Diversité
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+      #Cela vous dit-il quelque chose?
+      (Amazon Echo, Apple Siri, Google Home)
+
+      <iframe width="560" height="400" src="https://www.youtube.com/embed/NMS2VnDveP8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </script>
+  </section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Qu'ont en commun ces images?
+    <br />
+  <img src="framework\img\amazon-echo.png" alt="Image d'Amazon Echo." style="height:350px;"><!-- .element: class="delayed" -->
+  <img src="framework\img\microsoft-tay-twitter.png" alt="Image du compte Twitter de Microsoft Tay." style="height:350px;"><!-- .element: class="delayed" -->
+  <img src="framework\img\male-crash-test-dummies.jpg" alt="Image de mannequins masculins pour les essais de choc." style="height:350px;"><!-- .element: class="delayed" -->
+
+  ---
+  ###Ressources
+  * [Les assistants vocaux personnels ont encore de la difficulté à comprendre les accents prononcés](https://www.engadget.com/2018/07/19/voice-assistant-problems-understanding-accents/)
+  * [The Verge - Twitter a enseigné le racisme au robot d'intelligence artificielle de Microsoft en une seule journée](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)
+  * [Un mannequin d'essai de choc de sexe féminin bouleverse les évaluations de sécurité de certains modèles de voitures populaires](https://bangordailynews.com/2012/03/26/health/female-crash-dummy-upends-safety-ratings-for-some-top-selling-cars/)
+  * [Image de mannequins d’essai de choc | Wikipédia](https://en.wikipedia.org/wiki/Crash_test_dummy#/media/File:CEP1710-58.jpg)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Pourquoi devrions-nous concevoir des produits en fonction de la diversité des utilisateurs?
+  * Les concepteurs, comme tout le monde d'ailleurs, sont influencés de manière inconsciente par leurs préjugés et leurs présomptions culturelles.<!-- .element: class="delayed" -->
+  * Les produits les plus sécuritaires et adaptés favorisent l'équité en reconnaissant la valeur et l'humanité de tous les individus.<!-- .element: class="delayed" -->
+  * Un produit qui encourage la diversité attire un public plus large.<!-- .element: class="delayed" -->
+
+  <img src="framework\img\airbnb-another-lens.png" alt="Capture d'écran de Another Lens, AirBNB" style="height:350px;"><!-- .element: class="delayed" -->
+  Faites attention à vos préjugés et privilégiez l'équilibre, considérez l'opinion contraire, adoptez une attitude axée sur la croissance.
+
+  ---
+  ###Ressources
+  * [AirBNB - Another Lens](https://airbnb.design/anotherlens/Another_Lens.pdf)
+</script>
+</section>
+
+  <section class="slide title" data-markdown data-toc>
+    <script type="text/template">
+      #Conception universelle
+      ##Accessibilité
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+      #Qu'est-ce que la conception accessible?
+        <p class="delayed">En pratique, la conception accessible constitue à créer des produits pour des utilisateurs atteints d'un handicap ou d'une déficience. En principe, il s'agit de *concevoir des produits convenant à tous*.
+        </p>
+
+      ##Pourquoi concevoir des produits accessibles?<!-- .element: class="delayed" -->
+      * En concevant un produit pour le plus grand nombre de personnes possible, il sera utilisé par un public plus large.<!-- .element: class="delayed" -->
+      * La conception universelle contribue à faire tomber les barrières d'utilisation et à combattre les stéréotypes au sein de la population. <!-- .element: class="delayed" -->
+      * Il s'agit d'un bon défi pour les concepteurs et leur permet d'avoir des opinions variées à propos de l'expérience utilisateur.<!-- .element: class="delayed" -->
+    </script>
+  </section>
+
+  <section class="slide" data-markdown>
+    <script type="text/template">
+    #Exemples tirés du quotidien
+
+    Surface podotactile, créée par Seiichi Miyake (1965) :
+
+    <img src="framework\img\tenji-block.JPG" alt="Image de surface podotactile par l'utilisateur Wikipédia « Haragayato »." style="width:550px;">
+
+    Police « Dyslexie » par Christian Boer (2008) :
+
+    <img src="framework\img\dyslexie-font.png" alt="Exemple de la police Dyslexie, conçue pour les gens atteints de dyslexie." style="width:550px;">
+
+    ---
+    ###Ressources
+      * [Wikipédia -  Surface podotactile](https://fr.wikipedia.org/wiki/Surface_podotactile)
+      * [Site Web de la police « Dyslexie »](https://www.dyslexiefont.com/en/typeface/)
+    </script>
+  </section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Quels sont les éléments à considérer dans la conception?
+  * Son privilège personnel, ses préjugés et ses tendances.<!-- .element: class="delayed" -->
+  * Objectif : la libération. Soyez inclusifs de tous les genres et statuts sociaux et de toutes les races, ethnies et religions en sélectionnant des utilisateurs pour essayer votre produit.<!-- .element: class="delayed" -->
+  * Éviter les généralisations et le langage sexiste.<!-- .element: class="delayed" -->
+  * L'utilisation et le sens des couleurs ainsi que les stéréotypes qui y sont liés (p. ex., le bleu « pour les hommes », le rose « pour les femmes »).<!-- .element: class="delayed" -->
+  * Options d'accessibilité, autant que possible.<!-- .element: class="delayed" -->
+  * Graphiques et icônes représentant différentes races et identités.<!-- .element: class="delayed" -->
+
+  ---
+  ###Ressources
+  * [6 principes de conception inclusive](https://uxplanet.org/6-principles-for-inclusive-design-3e9867f7f63e)
+  * [Humaans - Illustrations variées pour le graphisme](https://www.humaaans.com/)
+</script>
+</section>
+
+<section class="slide" data-markdown>
+  <script type="text/template">
+  #Aujourd'hui, nous avons abordé...
+  * Comment la conception de l'expérience utilisateur affecte notre vie tant positivement que négativement
+  * Comment l'expérience utilisateur (EU) et l'interface utilisateur (IU) sont liées
+  * Comment les caractéristiques comme le genre, la culture, la langue et l'expérience influencent notre façon de voir la technologie au quotidien
+  * Comment travailler en équipe pour résoudre des problèmes concrets
+  * Quelles sont les responsabilités et les décisions des utilisateurs et des concepteurs par rapport aux attitudes et comment agir en bon citoyen numérique
+  * Comment faire des rétroactions constructives sur la conception
+  </script>
+</section>
+
+  <section class="slide centered" data-markdown>
+    <script type="text/template">
+      #Félicitations!
+      <img src="framework\img\theoffice-party.gif" alt="Gif de l'équipe de The Office qui danse">
+  </script>
+  </section>
+
+  <section class="slide small-type" data-markdown data-toc>
+    <script type="text/template">
+    #Ressources supplémentaires
+
+    * [D.school - Empathie et essai par les utilisateurs](https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/58993ab21e5b6c9dbecc9746/1486437057629/understand-mixtape-v8.pdf)
+    * [Canvas d'éthique](https://www.ethicscanvas.org/canvas/index.php)
+
+    ##Outils de conception et de création de prototype
+    * [Balsamiq](https://balsamiq.com)
+    * [Figma](https://www.figmaresources.com/)
+    * [InVision](https://www.figmaresources.com/)
+    * [Marvel](https://marvelapp.com/)
+    * [Origami](https://origami.design/)
+    * [Sketch](https://www.sketchapp.com/)
+    * [UXPin](https://www.uxpin.com/)
+
+    ##Livres
+    * [About Face: The Essentials of Interaction Design - Cooper and Wiley](https://www.amazon.ca/About-Face-Essentials-Interaction-Design/dp/1118766571/)
+    * [Don’t Make Me Think - Steve Krug](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited)
+    * [Emotional Design: Why We Love or Hate Everyday Things - Donald Norman](https://www.goodreads.com/book/show/841.Emotional_Design)
+    * [Hooked: How to Build Habit-Forming Products - Nir Eyal](https://www.goodreads.com/book/show/22668729-hooked)
+    * [Mismatch: How Inclusion Shapes Design - Kate Walsh](https://www.amazon.ca/Mismatch-How-Inclusion-Shapes-Design/dp/0262038889)
+    * [The Design of Everyday Things - Donald Norman](https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things)
+    * [You're My Favorite Client - Mike Monteiro](https://abookapart.com/products/youre-my-favorite-client)
+    * [100 Things Every Designer Needs to Know About People - Susan Weinschenk](https://www.amazon.ca/Things-Every-Designer-Needs-People/dp/0321767535)
+
+    ##Sites Web
+    * [Dear Design Student](https://deardesignstudent.com)
+    * [InVision - Inside Design](https://www.invisionapp.com/inside-design/)
+    * [Neilsen Norman](https://www.nngroup.com)
+    * [Medium - UX Anthology](https://medium.com/s/user-friendly)
+    * [UX Collective](https://uxdesign.cc)
+    * [UX Planet](https://uxplanet.org/)
+    * [UXPin - Livres numériques gratuits](https://www.uxpin.com/studio/ebooks/)
+  </script>
+  </section>
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span>Introduction à la conception d'expérience utilisateur</span>
+      </h2>
+
+      <!-- <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="nom de la formatrice"> -->
+      <h2><span class="cursive">avec</span> Nom</h2>
+      <ul>
+        <li><a href="mailto:">Courriel</a></li>
+        <li><a href="https://">Portfolio</a></li>
+        <li><a href="https://">Twitter</a></li>
+      </ul>
+
+      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir de <a href="https://github.com/LeaVerou/csss">SlideShow par Lea Verou</a> avec <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
