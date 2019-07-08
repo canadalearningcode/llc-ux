@@ -11,6 +11,8 @@ Instructor Notes: https://ladieslearningcode.github.io/llc-ux/notes-en.html
 
 Preview Slides: https://ladieslearningcode.github.io/llc-ux/slides-en.html
 
+[User Persona example and template](https://docs.google.com/presentation/d/1JCKcJlPY6yQQay7M3dwsIMcvlKySHxZB7uUTRt8uKA0/edit?usp=sharing)
+
 ## Description
 
 Why learn about UX design?
@@ -53,6 +55,8 @@ Un atelier d'initiation à la conception d'expérience utilisateur (EU) d'une jo
 Notes de la formatrice : https://ladieslearningcode.github.io/llc-ux/notes-fr.html
 
 Diapositives : https://ladieslearningcode.github.io/llc-ux/slides-fr.html
+
+[Modèle et exemple de persona d'utilisateur](https://docs.google.com/presentation/d/1JCKcJlPY6yQQay7M3dwsIMcvlKySHxZB7uUTRt8uKA0/edit?usp=sharing)
 
 ## Description
 
