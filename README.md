@@ -1,4 +1,4 @@
-# TESTING
+# [Available July 9th]
 
 # National Learn to Code Day 
 ## Intro to User Experience (UX) Design
