@@ -1,5 +1,3 @@
-# [Available July 9th]
-
 # National Ladies Learning Code Day
 ## Intro to User Experience (UX) Design
 
