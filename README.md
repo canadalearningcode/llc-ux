@@ -44,9 +44,9 @@ Our general Rule of Thumb is that it's okay to add examples if you feel it could
 # Français
 
 # Journée nationale de l'apprentissage de la programmation
-## Intro à la conception d'expérience utilisateur (EU)
+## Intro à la conception d'expérience utilisateur (UX)
 
-Un atelier d'initiation à la conception d'expérience utilisateur (EU) d'une journée complète.
+Un atelier d'initiation à la conception d'expérience utilisateur (UX) d'une journée complète.
 
 ## Liens rapides
 
@@ -59,7 +59,7 @@ Diapositives : https://ladieslearningcode.github.io/llc-ux/slides-fr.html
 ## Description
 
 Pourquoi apprendre à propos de la conception d'expérience utilisateur?
-Une grande conception implique une grande responsabilité. La conception d'expérience utilisateur (EU) n'est pas que la création de beaux sites Web fonctionnels. Il s'agit surtout de la recherche de solutions créatives à des problèmes afin d'améliorer le quotidien et les expériences des utilisateurs.
+Une grande conception implique une grande responsabilité. La conception d'expérience utilisateur (UX) n'est pas que la création de beaux sites Web fonctionnels. Il s'agit surtout de la recherche de solutions créatives à des problèmes afin d'améliorer le quotidien et les expériences des utilisateurs.
 
 En tant que concepteurs, nous devons nous souvenir que nous ne créons pas des produits pour nous-mêmes, mais pour les autres. Le rôle de concepteur d'EU nous permet de travailler avec une multitude de gens et de régler des problèmes pour différentes personnes. L'empathie est essentielle.
 
