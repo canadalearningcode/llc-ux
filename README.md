@@ -1,4 +1,4 @@
-# National Ladies Learning Code Day
+# Ladies Learning Code
 ## Intro to User Experience (UX) Design
 
 A full day introductory UX Design workshop.
@@ -43,7 +43,7 @@ Our general Rule of Thumb is that it's okay to add examples if you feel it could
 
 # Français
 
-# Journée nationale de l'apprentissage de la programmation
+# Femmes en programmation
 ## Intro à la conception d'expérience utilisateur (UX)
 
 Un atelier d'initiation à la conception d'expérience utilisateur (UX) d'une journée complète.
